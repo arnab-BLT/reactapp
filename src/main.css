@@ -1,0 +1,67 @@
+div#root {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.customs_boxes {
+    box-shadow: none;
+    border: 2px solid #bdbdbd;
+    border-radius: 0px;
+}
+.customs_imagebx {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-height: 200px;
+}
+.medicare_hd {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1c1c1c;
+    font-family: 'Roboto', sans-serif;
+}
+.bld_para {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c1c1c;
+    font-family: 'Roboto', sans-serif;
+}
+.box-4 {
+    padding: 0px 15px;
+    position: relative;
+}
+.box-6 {
+    padding: 0px 15px;
+    position: relative;
+}
+.norml_para {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer_boxx {
+    justify-content: space-between;
+    padding: 15px !important;
+}
+.pblished_td {
+    font-weight: 500;
+    font-size: 16px;
+}
+button.more_bbtn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    min-width: 140px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #d9d9db;
+    color: #1c1c1c;
+    transition: 0.5s;
+}
+button.more_bbtn:hover {
+    background: #bebec3;
+    color: #1c1c1c;
+}
